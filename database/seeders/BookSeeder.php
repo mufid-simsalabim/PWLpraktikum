@@ -14,11 +14,11 @@ class BookSeeder extends Seeder
     public function run(): void
     {
         Book::create([
-            "title" => "Jarkom - Filosofi",
-            "author" => "GTA",
-            "year" => 2024,
-            "publisher" => "UNSUR Mengantuk",
-            "city" => "Cianjir",
+            "title" => "Kamu Jaahat",
+            "author" => "GeryMalkist",
+            "year" => 2015,
+            "publisher" => "Ibu kantin FEBI",
+            "city" => "Cianjuu",
             "cover" => "public/cover.jpg",
             "bookshelf_id" => 1
         ]);

@@ -19,8 +19,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans antialiased">
-    <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
+<body class="font-sans" style="background-image: url('{{ asset('https://images.pexels.com/photos/162389/lost-places-old-decay-ruin-162389.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') }}'); background-size: cover; background-position: center; background-attachment: fixed;">
         @include('layouts.navigation')
 
         <!-- Page Heading -->
